@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<style>
+ul {
+    list-style-type:none ;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(202, 141, 27)
+}
+li {
+    float: left;
+}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none; 
+  font-weight:bold ;  
+}
+li a:hover {
+  background-color: black
+}
+.transfer {
+   background: black;
+   color: aliceblue;
+  
+  
+}
+  </style>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about/about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="mens/mens.html">Men's Clothing</a></li>
+                <li><a href="../../../womens/womens.html">Women's Clothing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 style="color: rgb(25, 25, 86);">Contact Information</h2>
+            <p style="font-size: 18px;">Reach out to us via phone, email, or visit our store!</p>
+        </section>
+
+        <section>
+            <h2>Send Us a Message</h2>
+            <form>
+                <label class="name" for="name">Your Name:
+                    </label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message">
+                    </textarea><br><br>
+                <input class="transfer" type="submit"  value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Clothing Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

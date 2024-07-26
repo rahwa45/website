@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style>
+ul {
+    list-style-type:none ;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;   
+}
+li a:hover {
+  background-color: #111111;
+}
+.title {
+    color: rgb(229, 75, 127);
+    background: border-box;
+    text-align: center;
+}
+.greeting 
+{
+ font-style: italic; 
+ font-weight: bold;
+ color: rgb(173, 118, 16);
+ margin-left: 50px;
+  
+}
+.visit {
+font-size: 19px;
+font-style: oblique;
+color: black;
+font-weight: 600;
+margin-left: 80px;
+}
+.video-intro {
+   font-size: 40px;
+   color: brown;
+   font-style: italic; 
+}
+.video-status {
+    background: #111111;
+    margin-bottom: 20px;
+}
+.copy-right {
+    font-size:15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+.image1-boy {
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+.image1-girl  {
+    margin-right: 80px;
+}
+</style>
+
+<body>
+    <header>
+        <h1 class="title">Geni Traditional Clothes</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about/about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="about/contact/contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="about/contact/mens/mens.html">Men's Clothing</a>
+                </li>
+                <li>
+                    <a href="womens/womens.html">Women's Clothing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+   <section>
+    <h2 class="greeting">Welcome to My Clothing Store</h2>
+            <p class="visit">Explore our latest collections!</p>
+<img class="image1-boy" src="photos/boy1.jpg" alt="">
+<img class="image1-girl" src="photos/danyt_1.jpg" alt="">
+<img src="photos/girl2.jpg" alt="">
+</section>
+<p class="video-intro">Visit our video collections</p>
+<video class="video-status" width="320" height="240" controls>
+    <source src="videos/kiros.mp4" type="video/mp4" autoplay> 
+
+    <video width="320" height="240" controls>
+        <source src="videos/video2.mp4" type="video/mp4">
+    </video>
+    <video width="500" height="350">
+        <source src="videos/video3.mp4" type="video/mp4">
+    </video>
+        
+      </main>
+
+    <footer>
+        <p class="copy-right">&copy; 2024 My Clothing Store &#46; All rights reserved&#46;</p>
+        
+    </footer>
+</body>
+</html>
